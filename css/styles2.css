@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #505962;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-purple {
+  background-color: navy;
+  color: white;
+  margin: 1rem;
+}
+
+.btn-purple:hover, .btn-purple:focus {
+  border-color: blue;
+  background-color: blue;
+  color: white;
+}
+
+.feature img {
+  padding: 1.5rem;
+}
+
+footer {
+  background-color: #40474e;
+  background-size: cover;
+  color: white;
+}
+footer .row {
+  padding: 1.5rem 0 4rem;
+  line-height: 2rem;
+}
+footer img {
+  margin: 1.5rem 0;
+}
+footer h3 {
+  margin: 1.5rem 0;
+}
+
+.imgnavegar {
+            height: 55px;
+        }
+
+@media only screen
+    and (min-device-width: 300px) 
+    and (max-device-width: 600px) {
+        
+        .imgnavegar {
+            height: 25px;
+        }
+}
+
+@media only screen
+    and (min-device-width: 600px) 
+    and (max-device-width: 1024px) {
+      
+        .imgnavegar {
+            height: 50px;
+        }
+}
+
+[class*="col-"] {
+  padding: 1rem;
+}
